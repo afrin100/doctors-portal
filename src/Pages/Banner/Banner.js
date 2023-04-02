@@ -1,17 +1,19 @@
 import React from 'react';
-import chair from '../../assets/images/chair.png'
+import chair from '../../assets/images/chair.png';
+import background from '../../assets/images/bg.png'
 const Banner = () => {
     return (
         <div>
-            <div class="hero min-h-screen ">
+            <div class="hero min-h-screen px-12" >
+            <img src={background} alt="" className='h-full'/>
                 <div class="hero-content flex-col lg:flex-row-reverse">
-                   <div>
+                   <div >
                    <img src={chair}class="max-w-lg rounded-lg shadow-2xl" />
                    </div>
                     <div className='p-4'>
-                        <h1 class="text-6xl font-bold">Your new smile start here!</h1>
+                        <h1 class="text-6xl font-bold">Your new smile start here</h1>
                         <p class="py-6  ">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button class="btn btn-primary">Get Started</button>
+                        <button class="btn btn-primary bg-gradient-to-r from-primary-500 to-secondary-500 text-white uppercase">Get Started</button>
                     </div>
                 </div>
             </div>
