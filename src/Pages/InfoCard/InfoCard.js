@@ -1,18 +1,42 @@
 import React from 'react';
-import clock from '../../assets/icons/clock.svg'
-const InfoCard = ({img}) => {
+import clock from '../../assets/icons/clock.svg';
+import marker from '../../assets/icons/marker.svg';
+import phone from '../../assets/icons/phone.svg';
+import './InfoCard.css'
+const InfoCard = () => {
     return (
-        <div>
-            <div class="card lg:card-side bg-base-100 shadow-xl bg-accent">
-                <figure><img src={img}alt="Album" /></figure>
+
+        <div className='p-12 grid grid-cols-3 gap-5 text-white'>
+            <div class="card lg:card-side bg-base-100 shadow-xl bg-color px-12">
+           
+                <figure><img src={clock} alt="Album" /></figure>
                 <div class="card-body">
-                    <h2 class="card-title">New album is released!</h2>
+                    <h2 class="card-title">Opening Hours</h2>
                     <p>Click the button to listen on Spotiwhy app.</p>
-                    
+                  
                 </div>
-            </div>
-        </div>
-    );
+                </div>
+                <div class="card lg:card-side bg-base-100 shadow-xl bg-accent px-12">
+                    <figure><img src={marker}alt="Album" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Visit our location</h2>
+                        <p>Click the button to listen on Spotiwhy app.</p>
+                        
+                    </div>
+                    </div>
+                    <div class="card lg:card-side bg-base-100 shadow-xl bg-color px-12 ">
+                        <figure><img src={phone}alt="Album" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Contact us now</h2>
+                            <p>Click the button to listen on Spotiwhy app.</p>
+                            
+                        </div>
+                    </div>
+                    </div>
+                    
+                   
+                    
+                    );
 };
 
-export default InfoCard;
+                    export default InfoCard;
