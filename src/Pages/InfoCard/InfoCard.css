@@ -2,4 +2,6 @@
     background-color: #00FFFF; /* fallback color for non-supported browsers */
     background-image: linear-gradient(to right, #0FCFEC, #19D3AE);
   }
-  
+  .bg-accent{
+    background-color: #3A4256;
+  }
