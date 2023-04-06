@@ -10,19 +10,22 @@ const Testimonial = () => {
             _id:1,
             name:'Winson Herry',
             review:'',
-            img:people1
+            img:people1,
+            location:'california'
         },
         {
             _id:2,
             name:'Winson Herry',
             review:'',
-            img:people2
+            img:people2,
+            location:'california'
         },
         {
             _id:3,
             name:'Winson Herry',
             review:'',
-            img:people3
+            img:people3,
+            location:'california'
         }
     ]
     return (
