@@ -6,10 +6,10 @@ const SubmitForm = () => {
         <div>
             <div>
                 <div class="hero min-h-screen ">
-                    <img src={appointment} alt="" />
+                    <img src={appointment} alt="" className=''/>
                     <div class="hero-content flex-col lg:flex-row-reverse">
 
-                        <div class="card flex-shrink-0 w-full max-w-sm ">
+                        <div class="card flex-shrink-0 w-full max-w-sm  ">
                             <div class="card-body">
                                 <div className='text-center '>
                                     <h2 className='text-primary p-3 font-bold'>Contact us</h2>

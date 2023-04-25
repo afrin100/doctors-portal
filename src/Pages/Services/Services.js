@@ -12,7 +12,7 @@ const Services = () => {
             <h2 className='text-3xl text-center '>Services we provide</h2>
            </div>
             {/* card section */}
-            <div className='px-12 grid grid-cols-3 gap-5 my-5'>
+            <div className='px-12 grid grid-cols-1 lg:grid-cols-3 gap-5 my-5'>
                 <div class="card lg:card-side bg-base-100 shadow-xl  grid grid-cols-1 p-2">
                     <figure>
                         <img src={fluoride} alt="Album" className='w-auto'/>
@@ -38,7 +38,7 @@ const Services = () => {
                 </div>
             </div>
            {/* Other section */}
-            <div class="card lg:card-side bg-base-100  grid grid-cols-2 w-8/12 mx-auto my-10">
+            <div class="card lg:card-side bg-base-100  grid grid-cols-1 lg:grid-cols-2 w-8/12 mx-auto my-10">
                 <figure><img src={treatment}alt="Album" className='w-8/12'/></figure>
                 <div class="card-body">
                     <h2 class="card-title text-3xl my-2">Exceptional Dental Care,On Your Term</h2>
